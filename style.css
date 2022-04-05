@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #AED6F1;
+    background-color: #70c6c7;
 }
 
 .resume-contents {
@@ -21,13 +21,14 @@ body {
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #34495E;
+    background-color: #00204A;
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #D6DBDF;
+    background-color: #4B6982;
+    border-radius: 0px 60px 0px 0px;
 }
 
 .left-section-contents{
@@ -56,7 +57,7 @@ body {
 }
 
 .profession {
-    color: #F9E79F;
+    color: #FDB44B;
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -67,7 +68,7 @@ body {
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-    color: #D6DBDF;
+    color: #FDB44B;
     font-size: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -134,7 +135,7 @@ body {
 }
 
 .right-title {
-    color: #34495E;
+    color: #70C6C7;
     font-size: 40px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -152,6 +153,7 @@ body {
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 2rem;
+    color: #F1F8FD;
 }
 
 .experience-contents,
@@ -160,6 +162,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
+    color: #F1F8FD;
 }
 
 .exp-company-name,
@@ -169,7 +172,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #21638f;
+    color: #FDB44B;
     padding-bottom: .4rem;
 }
 
@@ -188,7 +191,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #2E86C1;
+    color: #FDB44B;
     padding-bottom: .4rem;
 }
 
